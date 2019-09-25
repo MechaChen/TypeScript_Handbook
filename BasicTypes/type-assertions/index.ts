@@ -4,4 +4,4 @@ let someValue: any = "this is a string";
 let strLength: number = (<string>someValue).length;
 
 // as syntax
-let strLength1: number = (someValue as string).length;
+let strLengthA: number = (someValue as string).length;
