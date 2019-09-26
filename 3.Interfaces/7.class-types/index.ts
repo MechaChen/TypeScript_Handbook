@@ -1,8 +1,8 @@
-interface ClockInterface {
+interface ClockInterfaceA {
   currentTime: Date;
 }
 
-class Clock implements ClockInterface {
+class ClockA implements ClockInterfaceA {
   currentTime: Date = new Date();
   constructor(h: number, m: number) {}
 }
